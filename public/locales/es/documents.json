@@ -1,0 +1,34 @@
+{
+  "title": "Documentos",
+  "subtitle": "Gestión de documentación del proyecto",
+  "filters": {
+    "category": "Categoría",
+    "showOnlyLatest": "Solo versiones más recientes"
+  },
+  "categories": {
+    "project": "Proyecto",
+    "tests": "Ensayos",
+    "safety": "Seguridad",
+    "environment": "Ambiente",
+    "others": "Otros"
+  },
+  "table": {
+    "name": "Nombre del Documento",
+    "category": "Categoría",
+    "uploadDate": "Fecha de Subida",
+    "version": "Versión",
+    "file": "Archivo"
+  },
+  "newDocument": {
+    "title": "Nuevo Documento",
+    "name": "Nombre del Documento",
+    "category": "Categoría",
+    "selectCategory": "Seleccione una categoría",
+    "version": "Versión",
+    "versionPlaceholder": "ej: v1.0",
+    "file": "Archivo (PDF)"
+  },
+  "chart": {
+    "title": "Documentos por Categoría"
+  }
+}

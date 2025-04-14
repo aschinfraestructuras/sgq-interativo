@@ -1,0 +1,41 @@
+{
+  "title": "Materiais",
+  "subtitle": "Gestão de materiais",
+  "filters": {
+    "type": "Tipo",
+    "status": "Estado"
+  },
+  "types": {
+    "steel": "Aço",
+    "concrete": "Betão",
+    "ballast": "Balastro",
+    "electrical": "Eléctrico",
+    "others": "Outros"
+  },
+  "status": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "rejected": "Rejeitado"
+  },
+  "table": {
+    "code": "Código",
+    "name": "Designação",
+    "type": "Tipo",
+    "receptionDate": "Data de Receção",
+    "applicationZone": "Zona de Aplicação",
+    "status": "Estado",
+    "certificate": "Certificado"
+  },
+  "newMaterial": {
+    "title": "Novo Material",
+    "name": "Designação",
+    "type": "Tipo",
+    "selectType": "Selecione um tipo",
+    "applicationZone": "Zona de Aplicação",
+    "certificate": "Certificado (PDF ou Imagem)"
+  },
+  "chart": {
+    "byType": "Materiais por Tipo",
+    "byStatus": "Estado dos Materiais"
+  }
+}

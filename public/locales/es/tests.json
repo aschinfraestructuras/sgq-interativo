@@ -1,0 +1,38 @@
+{
+  "title": "Ensayos",
+  "subtitle": "Gestión de ensayos y pruebas",
+  "filters": {
+    "type": "Tipo de Ensayo",
+    "status": "Estado"
+  },
+  "types": {
+    "compression": "Compresión",
+    "traction": "Tracción",
+    "density": "Densidad",
+    "granulometry": "Granulometría",
+    "consistency": "Consistencia"
+  },
+  "table": {
+    "type": "Tipo de Ensayo",
+    "date": "Fecha",
+    "zone": "Zona",
+    "result": "Resultado",
+    "approved": "Aprobado",
+    "attachment": "Anexo"
+  },
+  "newTest": {
+    "title": "Nuevo Ensayo",
+    "type": "Tipo de Ensayo",
+    "selectType": "Seleccione un tipo",
+    "date": "Fecha",
+    "zone": "Zona",
+    "result": "Resultado",
+    "approved": "Aprobado",
+    "attachment": "Anexo (PDF)"
+  },
+  "chart": {
+    "title": "Estado de los Ensayos",
+    "approved": "Aprobados",
+    "rejected": "Reprobados"
+  }
+}

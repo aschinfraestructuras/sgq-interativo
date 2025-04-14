@@ -1,0 +1,41 @@
+{
+  "title": "Materiales",
+  "subtitle": "Gestión de materiales",
+  "filters": {
+    "type": "Tipo",
+    "status": "Estado"
+  },
+  "types": {
+    "steel": "Acero",
+    "concrete": "Hormigón",
+    "ballast": "Balasto",
+    "electrical": "Eléctrico",
+    "others": "Otros"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "rejected": "Rechazado"
+  },
+  "table": {
+    "code": "Código",
+    "name": "Designación",
+    "type": "Tipo",
+    "receptionDate": "Fecha de Recepción",
+    "applicationZone": "Zona de Aplicación",
+    "status": "Estado",
+    "certificate": "Certificado"
+  },
+  "newMaterial": {
+    "title": "Nuevo Material",
+    "name": "Designación",
+    "type": "Tipo",
+    "selectType": "Seleccione un tipo",
+    "applicationZone": "Zona de Aplicación",
+    "certificate": "Certificado (PDF o Imagen)"
+  },
+  "chart": {
+    "byType": "Materiales por Tipo",
+    "byStatus": "Estado de los Materiales"
+  }
+}

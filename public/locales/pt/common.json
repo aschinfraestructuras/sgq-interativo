@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "GestãoObras",
+    "company": "Infraestructuras y Servicios S.A."
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "projects": "Projetos",
+    "documents": "Documentos",
+    "tests": "Ensaios",
+    "materials": "Materiais",
+    "suppliers": "Fornecedores",
+    "nonConformities": "Não Conformidades",
+    "checklists": "Checklists",
+    "indicators": "Indicadores"
+  },
+  "actions": {
+    "new": "Novo",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Pesquisar",
+    "filter": "Filtrar",
+    "download": "Descarregar",
+    "upload": "Carregar"
+  },
+  "status": {
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "rejected": "Rejeitado",
+    "inProgress": "Em Curso",
+    "completed": "Concluído",
+    "suspended": "Suspenso",
+    "planned": "Planeado"
+  }
+}

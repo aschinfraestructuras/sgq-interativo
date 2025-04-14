@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-brand-50;
+  }
+}
+
+/* Smooth transitions */
+.page-transition {
+  @apply transition-opacity duration-200;
+}
+
+.page-enter {
+  @apply opacity-0;
+}
+
+.page-enter-active {
+  @apply opacity-100;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-200 rounded-full hover:bg-brand-300 transition-colors;
+}
+
+/* Card and table styles */
+.card {
+  @apply bg-white rounded-xl shadow-card border border-brand-100/60;
+}
+
+.table-container {
+  @apply bg-white rounded-lg shadow-card overflow-hidden;
+}
+
+.table-row {
+  @apply hover:bg-brand-50 transition-colors;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-brand-500 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-brand-600 transition-colors shadow-sm;
+}
+
+.btn-secondary {
+  @apply bg-white text-brand-700 px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-brand-50 transition-colors shadow-sm border border-brand-200;
+}
+
+.btn-danger {
+  @apply bg-accent-500 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-accent-600 transition-colors shadow-sm;
+}
+
+/* Form controls */
+.form-input {
+  @apply block w-full rounded-md border-brand-200 shadow-sm focus:border-brand-500 focus:ring focus:ring-brand-200 focus:ring-opacity-50 transition-colors;
+}
+
+.form-select {
+  @apply block w-full rounded-md border-brand-200 shadow-sm focus:border-brand-500 focus:ring focus:ring-brand-200 focus:ring-opacity-50 transition-colors;
+}
+
+/* Status badges */
+.badge {
+  @apply px-2.5 py-1 rounded-full text-xs font-medium inline-flex items-center gap-1;
+}
+
+.badge-success {
+  @apply bg-emerald-100 text-emerald-800;
+}
+
+.badge-warning {
+  @apply bg-amber-100 text-amber-800;
+}
+
+.badge-error {
+  @apply bg-accent-100 text-accent-800;
+}
+
+.badge-info {
+  @apply bg-brand-100 text-brand-800;
+}
+
+/* Tooltips */
+.tooltip {
+  @apply invisible absolute z-50 px-2 py-1 text-xs font-medium text-white bg-gray-900 rounded transition-all duration-200 opacity-0 -translate-x-1/2 -translate-y-full left-1/2 -top-1;
+}
+
+.tooltip::after {
+  content: '';
+  @apply absolute left-1/2 top-full -translate-x-1/2 border-4 border-transparent border-t-gray-900;
+}
+
+.has-tooltip {
+  @apply relative;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible opacity-100;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  @apply absolute right-0 mt-2 w-56 bg-white rounded-lg shadow-lg border border-brand-100 py-1 z-50 animate-fade-in;
+}
+
+.dropdown-item {
+  @apply flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-brand-50 transition-colors;
+}
+
+/* Navigation styles */
+.nav-link {
+  @apply flex items-center px-3 py-2.5 text-sm font-medium rounded-lg transition-all duration-200;
+}
+
+.nav-link-active {
+  @apply bg-brand-500 text-white;
+}
+
+.nav-link-inactive {
+  @apply text-brand-100 hover:bg-brand-600/50 hover:text-white;
+}
+
+/* Footer styles */
+.footer {
+  @apply bg-white border-t border-brand-100 py-4 px-6 text-sm text-brand-600;
+}

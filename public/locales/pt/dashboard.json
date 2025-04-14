@@ -1,0 +1,15 @@
+{
+  "title": "Dashboard",
+  "welcome": "Bem-vindo ao painel de controlo",
+  "totalProjects": "Total de Projetos",
+  "pendingTests": "Ensaios Pendentes",
+  "totalDocuments": "Documentos Carregados",
+  "nonConformities": "Não Conformidades",
+  "projectStatus": "Estado dos Projetos",
+  "recentActivity": "Atividade Recente",
+  "activityTypes": {
+    "document": "Novo documento adicionado",
+    "test": "Ensaio realizado",
+    "nonConformity": "Nova não conformidade"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Projetos",
+  "newProject": "Nova Obra",
+  "projectDetails": {
+    "name": "Nome da Obra",
+    "location": "Localização",
+    "client": "Cliente / Entidade Responsável",
+    "startDate": "Data de Início",
+    "status": "Estado da Obra"
+  },
+  "filters": {
+    "all": "Todos",
+    "status": "Estado",
+    "location": "Localização"
+  },
+  "views": {
+    "cards": "Cartões",
+    "table": "Tabela"
+  }
+}
