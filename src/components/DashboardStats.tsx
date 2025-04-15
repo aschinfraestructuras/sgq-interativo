@@ -12,6 +12,26 @@ import { Bar, Doughnut, Line } from 'react-chartjs-2';
 
 export default function DashboardStats() {
   const { stats, loading } = useDashboard();
+  if (loading) {
+    return (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-pulse">
+        {[...Array(6)].map((_, i) => (
+          <div key={i} className="bg-white rounded-xl shadow-card p-6">
+            <div className="h-20 bg-gray-200 rounded-lg"></div>
+          </div>
+        ))}
+      </div>
+    );
+  }
+  
+  if (!stats) {
+    return (
+      <div className="text-center py-10 text-gray-500">
+        ⚠️ Dados do dashboard indisponíveis. Tente novamente mais tarde.
+      </div>
+    );
+  }
+  
 
   if (loading) {
     return (
