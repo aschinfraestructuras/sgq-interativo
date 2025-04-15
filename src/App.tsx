@@ -44,6 +44,14 @@ function App() {
                       <DashboardProvider>
                         <BrowserRouter>
                           <div className="min-h-screen flex flex-col bg-brand-50">
+  <header className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
+    <div className="flex items-center space-x-4">
+      <img src="/logo-asch.png" alt="Logótipo ASCH" className="h-12" />
+      <h1 className="text-2xl font-bold text-gray-800">
+        SGQ – Sistema de Gestão da Qualidade ASCH
+      </h1>
+    </div>
+  </header>
                             <Routes>
                               <Route path="/login" element={<Login />} />
                               <Route path="/share/:token" element={<SharedDocument />} />
